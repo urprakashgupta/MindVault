@@ -1,0 +1,1 @@
+# 🧠 MindVault - Second Brain App
