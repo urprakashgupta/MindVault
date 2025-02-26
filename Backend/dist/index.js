@@ -35,15 +35,7 @@ app.use(express_1.default.json());
 app.get("/", (req, res) => {
     res.status(200).json({
         status: "success",
-        message: "Welcome to Brainly API | Backend Server is up and running.",
-    });
-});
-app.get("/health", (req, res) => {
-    res.status(200).json({
-        status: "success",
-        message: "Server is healthy and running on Render!",
-        uptime: process.uptime(), // Time the server has been running in seconds
-        timestamp: new Date().toISOString(), // Current server time
+        message: "Welcome to MindValut API | Backend Server is up and running.",
     });
 });
 app.post("/api/v1/signup", (req, res) => __awaiter(void 0, void 0, void 0, function* () {
